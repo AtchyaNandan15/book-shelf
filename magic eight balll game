@@ -1,0 +1,81 @@
+
+
+     fill(0, 0, 0);
+ellipse(200, 200, 375, 375);
+fill(60, 0, 255);
+rect(103,107,200,200);
+fill(255, 255, 259);
+textSize(20);
+mouseClicked = function () {
+    fill(104, 108, 143);
+ellipse(200, 200, 375, 375);
+fill(60, 0, 255);
+rect(103,107,200,200);
+fill(255, 255, 255);
+var answer = floor(random(1, 5));
+    
+    
+    if (answer ===1) {
+    text("Click", 176, 200);
+    text("To Start", 159, 229); 
+}
+
+else if (answer===2) {
+   
+     fill(163, 12, 163);
+ellipse(200, 200, 375, 375);
+fill(60, 0, 255);
+rect(103,107,200,200);
+fill(194, 128, 194);
+   textSize(25);
+   text ("Have a good day",107,228);
+
+}
+
+else if (answer===3) {
+ fill(61, 128, 71);
+ellipse(200, 200, 375, 375);
+fill(60, 0, 255);
+rect(103,107,200,200);
+fill(79, 128, 87);
+    textSize(20);
+text ("Your amazing", 125, 228);
+
+
+}
+
+else if (answer===4) {
+ fill(88, 179, 162);
+ellipse(200, 200, 375, 375);
+fill(60, 0, 255);
+rect(103,107,200,200);
+fill(23, 211, 232);
+    textSize(20);
+text ("Smile", 125, 228);
+ image(getImage("avatars/mr-pink-green"), 155, 245, 80, 80);
+
+}
+
+
+else if (answer===5) {
+fill(214, 232, 49);
+ellipse(200, 200, 375, 375);
+fill(60, 0, 255);
+ellipse(103,107,200,200);
+fill(163, 155, 136);
+    textSize(20);
+text ("Enjoy little things", 125, 228);
+
+}
+
+else if (answer===6) {
+fill(214, 232, 49);
+ellipse(200, 200, 375, 375);
+fill(60, 0, 255);
+rect(103,107,200,200);
+fill(171, 127, 24);
+    textSize(20);
+text ("Enjoy little things", 125, 228);
+ image(getImage("avatars/marcimus"), 100, 100, 40, 80);
+}
+};
